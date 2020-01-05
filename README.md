@@ -1,1 +1,3 @@
-# ceasar-cipher
+# Ceasar cipher implementation
+
+## **Author**: Anastasia Lebedeva
