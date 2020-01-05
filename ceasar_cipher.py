@@ -47,13 +47,13 @@ def encrypt_(plain, key):
 
 
 def decrypt_(cipher, key):
-  """method that takes in encrypted text and numeric key which will restore the encrypted text back to its original form as long as correct key is supplied"""
+  """Function that takes in encrypted text and numeric key which will restore the encrypted text back to its original form as long as correct key is supplied"""
 
   return encrypt_(cipher, -key)
 
 
 def break_cipher(cipher):
-  """function to transform cipher into its original state without access to the key."""
+  """Function to transform cipher into its original state without access to the key."""
 
   #Create a dictionary where all letters counted 
   letters_count = Counter(cipher)
@@ -86,7 +86,7 @@ def break_cipher(cipher):
       
 
 def is_english(text):
-  """helper function to find out if the given text is english text or not"""
+  """Helper function to find out if the given text is english text or not"""
   words = text.split()
   
   word_count = 0
